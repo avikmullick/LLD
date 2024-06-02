@@ -5,7 +5,7 @@ import java.util.List;
 
 public class VehicleInventoryManagement {
 
-    private List<Vehicle> vehicleList;
+    private final List<Vehicle> vehicleList;
 
     public VehicleInventoryManagement(){
         vehicleList=new ArrayList<>();
